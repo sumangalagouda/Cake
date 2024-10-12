@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Cake Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#">CakeHavan</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cakes">Cakes</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Deliciously Dark Cakes</h1>
+      <p>Indulge in the art of cakes</p>
+      <a href="#cakes" class="cta-button">Explore Cakes</a>
+    </div>
+  </section>
+
+
+  <section class="cakes" id="cakes">
+    <h2 style="text-align: center;">Our Best-Sellers</h2>
+    <div class="cakes-grid">
+      <div class="cake-card">
+        <div class="cake-image">
+          <img src="https://bkmedia.bakingo.com/birthday-star-black-forest-cake-cake4036blac-a.jpg?tr=w-320,h-320,dpr-1.5,q-70" alt="Modern Birthday Cake">
+        </div>
+        <div class="cake-info">
+          <h3>Modern Birthday Cake</h3>
+          <p>&#8377 300</p>
+          <button class="add-to-cart" data-name="Modern Birthday Cake" data-price="300">Add to Cart</button>
+        </div>
+      </div>
+      <div class="cake-card">
+        <div class="cake-image">
+          <img src="https://bkmedia.bakingo.com/sq-vanilla-strawberry-cake-with-red-carnation-on-top-rosecake2563stra-A_0.jpg?tr=w-320,h-320,dpr-2,q-70" alt="Modern Wedding Cake">
+        </div>
+        <div class="cake-info">
+          <h3>Modern Wedding Cake</h3>
+          <p>&#8377 1049</p>
+          <button class="add-to-cart" data-name="Modern Wedding Cake" data-price="1049">Add to Cart</button>
+        </div>
+      </div>
+      <div class="cake-card">
+        <div class="cake-image">
+          <img src="https://bkmedia.bakingo.com/sq-adventurous-spidey-hbd-cake-them1557flav-AAA.jpg?tr=w-320,h-320,dpr-1.5,q-70" alt="Modern Custom Cake">
+        </div>
+        <div class="cake-info">
+          <h3>Modern Custom Cake</h3>
+          <p>&#8377 1645</p>
+          <button class="add-to-cart" data-name="Modern Custom Cake" data-price="1645">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="gallery" id="gallery">
+    <h2 style="text-align: center;">Cake Gallery</h2>
+    <div class="gallery-grid">
+      <div class="glass-card">
+        <img src="https://bkmedia.bakingo.com/black-forest-cake0001chbl-AAA.jpg" alt="Cake 1">
+      </div>
+      <div class="glass-card">
+        <img src="https://bkmedia.bakingo.com/kitkat-chocolate-cake-cake1119choco-AAA.jpg" alt="Cake 2">
+      </div>
+      <div class="glass-card">
+        <img src="https://bkmedia.bakingo.com/chocolate-chip-cake0008choc-AAA.jpg?tr=h-265,w-265?tr=w-266,dpr-1.5,q-70" alt="Cake 3">
+      </div>
+      <div class="glass-card">
+        <img src="https://bkmedia.bakingo.com/choco-truffle-cake0005choc-a.jpg?tr=h-265,w-265?tr=w-266,dpr-1.5,q-70" alt="Cake 4">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="reviews" id="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-container">
+      <p>"Fresh, delicious, and beautifully presented cakes. Absolutely loved it!" - Vaibhav</p>
+      <p>"The best cakes in the city! Great for every occasion." - Ammu</p>
+    </div>
+  </section>
+
+
+  <section class="cart" id="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+      </table>
+      <div class="cart-summary">
+        <p>Total: <span id="cart-total">&#8377 0.00</span></p>
+        <button id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <div class="footer-container">
+      <p>Contact Us: info@cakehavan.com | 123-456-7890</p>
+      <p>Follow us: <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
